@@ -28,15 +28,17 @@ pnpm dev
 docker build --platform linux/amd64 -t photos .
 ```
 
-> docker tag photos dvlindev/photos
-> docker push dvlindev/photos
+docker tag photos dvlindev/photos
+docker push dvlindev/photos
 
 #### 运行Docker容器
 
+docker stop photos & docker rm -f photos
 ```bash
-docker run -d -p 6000:3000 --name photos \
+docker pull dvlindev/photos
+docker run -d -p 3200:3000 --name photos \
   --env-file .env \
-  photos
+  dvlindev/photos
 ```
 
 #### 使用Docker Compose
