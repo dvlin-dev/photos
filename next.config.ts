@@ -46,6 +46,7 @@ const nextConfig: NextConfig = {
     remotePatterns,
     minimumCacheTTL: 31536000,
   },
+  output: 'standalone',
 };
 
 module.exports = process.env.ANALYZE === 'true'

@@ -18,7 +18,7 @@ export const TEMPLATE_DESCRIPTION = 'Store photos with original camera data';
 // SOURCE CODE
 
 export const TEMPLATE_REPO_OWNER  = 'dvlin';
-export const TEMPLATE_REPO_NAME   = 'photography';
+export const TEMPLATE_REPO_NAME   = 'photos';
 export const TEMPLATE_REPO_BRANCH = 'main';
 // eslint-disable-next-line max-len
 export const TEMPLATE_REPO_URL = `https://github.com/${TEMPLATE_REPO_OWNER}/${TEMPLATE_REPO_NAME}`;
